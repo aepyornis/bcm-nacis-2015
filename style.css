@@ -15,13 +15,14 @@ h1, h2, h3, p {
 
 em, a {
   font-style:normal;
-  color:#8dbd0c;
+  color:hsl(300,80%,50%);
 }
 
 a {
   background:#34d0e7;
   color:#000;
   text-decoration:none;
+  line-height: 130%;
 }
 
 img {
@@ -35,7 +36,8 @@ div {
   top:0px;
   left:0px;
   padding:75px;
-  line-height:97%;
+  line-height:105%;
+  letter-spacing: 0.3px;  
 }
 
 div.center {
@@ -52,4 +54,13 @@ notes {
 /* normally not good, but ok in context of full screen directional navigation */
 :focus {
     outline: 0;
+}
+
+.caps {
+  text-transform: uppercase;
+}
+
+.right {
+  text-align: right;
+  float: right;
 }
