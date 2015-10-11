@@ -1,6 +1,6 @@
 body {  
   font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
-  letter-spacing:1px;
+  letter-spacing:-0.1em;
   background:#fff;
   background-size:100%;
   color:#000;
